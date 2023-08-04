@@ -20,7 +20,7 @@ searchButon.addEventListener("click",() =>{
 })
 
 async function getSearchResult(searchString){
-    let url=`${baseUrl}/search?key=${apiKey}&q=${searchString}&part=snippet&maxResults=10`;
+    let url=`${baseUrl}/search?key=${apiKey}&q=${searchString}&part=snippet&maxResults=20`;
     try {
         // Fetch the data
         const response = await fetch(url);
@@ -66,7 +66,7 @@ function addDataOntoUI(videoList){
 
 }
 const CHANNEL_ID = 'UCBwmMxybNva6P_5VmxjzwqA';
-let url2=`${baseUrl}/search?key=${apiKey}&channelId=${CHANNEL_ID }&part=snippet,id&order=date&maxResults=10`;
+let url2=`${baseUrl}/search?key=${apiKey}&channelId=${CHANNEL_ID }&part=snippet,id&order=date&maxResults=20`;
 async function fetchAndRenderVideos() {
     try {
       // Fetch the data
