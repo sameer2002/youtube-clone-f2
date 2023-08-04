@@ -4,25 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="search-div">
-        <input type="search" id="search_input" value="" placeholder="Search" >
-        <button type="button" id="search"><span class="material-symbols-outlined">
-            search
-            </span></button>
-    
-    </div>
- 
-    <div id="container" >
-       
-    </div>
+  
+    <nav class="mynav">
+        <div class="left-nav">
+        <span id="menu" class="material-symbols-outlined" style="color: white; margin-left: 30px;">
+            menu
+            </span>
+        <div class="logo">
+           <img src="Youtube-Logo-PNG.png" alt="">
+           <sub>IN</sub>
+        </div>
+        </div>
+        <div class="search-div">
+            
+            <input type="search" id="search_input" value="" placeholder="Search"  >
+            
+            <button type="button" id="search">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </button>
 
-    <div id="content">
-        <!-- Videos will be inserted here -->
+            <button id="mic">
+                <span class="material-symbols-outlined">
+                    mic
+                </span>
+            </button>
+        
+        </div>
+        
+        <div class="right-nav">
+        <span class="material-symbols-outlined" style="color: white;">
+            more_vert
+        </span>
+        <button id="sign-in">
+            <span class="material-symbols-outlined">
+                account_circle
+                </span>
+               <p>Sign in</p>
+        </button>
     </div>
+</nav>
+    <nav class="mynav-2" id="menubar"   >
+        
+        <div class="mynav-content">
+            <ul class="lists">
+                <li><span class="material-symbols-outlined">
+                    home
+                    </span> Home</li>
+                <li>
+                    <span class="material-symbols-outlined">
+                        smart_display
+                        </span> 
+                    Shorts
+                </li>
+                <li><span class="material-symbols-outlined">
+                    subscriptions
+                    </span>Subscription</li>
+            </ul>
+            <ul class="lists">
+                <li><span class="material-symbols-outlined">
+                    video_library
+                    </span>Library</li>
+                <li><span class="material-symbols-outlined">
+                    history
+                    </span>History</li>
+            </ul>
+            <ul class="lists">
+                <li><span class="material-symbols-outlined">
+                    local_fire_department
+                    </span>Trending</li>
+                <li><span class="material-symbols-outlined">
+                    local_mall
+                    </span>Shopping</li>
+                <li><span class="material-symbols-outlined">
+                    music_note
+                    </span>Music</li>
+                <li><span class="material-symbols-outlined">
+                    movie
+                    </span>Movies</li>
+                <li><span class="material-symbols-outlined">
+                    sensors
+                    </span>Live</li>
+                <li><span class="material-symbols-outlined">
+                    sports_esports
+                    </span>Gaming</li>
+                <li><span class="material-symbols-outlined">
+                    news
+                    </span>News</li>
+                <li><span class="material-symbols-outlined">
+                    trophy
+                    </span>Sports</li>
+                <li><span class="material-symbols-outlined">
+                    emoji_objects
+                    </span>Learning</li>
+                <li><span class="material-symbols-outlined">
+                    styler
+                    </span>Fashion & Beauty</li>
+            </ul>
+            <ul class="lists">
+                <li>Youtube Premium</li>
+                <li>Youtube Music</li>
+                <li>Youtube Kids</li>
+            </ul>
+            <ul class="lists">
+                <li><span class="material-symbols-outlined">
+                    settings
+                    </span>Settings</li>
+                <li><span class="material-symbols-outlined">
+                    flag
+                    </span>Report history</li>
+                <li><span class="material-symbols-outlined">
+                    help
+                    </span>Help</li>
+                <li><span class="material-symbols-outlined">
+                    live_help
+                    </span>Send feedback</li>
+            </ul>
+        </div>
+        </nav>
+       <div class="main_container" >
+        <div id="container" >
+       
+        </div>
+        <div id="content">
+            <!-- Videos will be inserted here -->
+        </div>
+       </div>
+    
+
+    
     <script src="script.js"  type="text/javascript"></script>
     
 </body>
